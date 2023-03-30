@@ -1,0 +1,51 @@
+.cart_icon{
+    color: white;
+    cursor: pointer;
+}
+.close{
+    position: absolute;
+    top: 2;
+    right: 10;
+    font-size: 23;
+    cursor: pointer;
+}
+.food_image{
+    height: 16rem;
+
+}
+.card_style{
+    cursor: pointer;
+    transition: .3s;
+}
+.card_style :hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.items_details{
+    max-width: 800px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.items_img{
+    flex: .4;
+}
+.items_img img{
+    width: 20rem;
+    border-radius: 5px;
+}
+.details{
+    flex: .5;
+}
+.spantag{
+    background-color: green;
+    color: #fff;
+    padding: 2px 5px;
+    border-radius: 5px;
+}
+.remove{
+    font-size: 20pxs;
+    cursor: pointer;
+}
+
